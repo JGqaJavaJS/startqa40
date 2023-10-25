@@ -5,5 +5,6 @@ public class Main {
         System.out.println("Hello and welcome!");
         System.out.println();
         System.out.println("mergeconflresolve");
+        System.out.println("main");
     }
 }
