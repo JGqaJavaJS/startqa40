@@ -4,6 +4,7 @@ public class ExceptionCommon {
 // psvm
     public static void main(String[] args)
     //throws InterruptedException
+    // add commit from github
     {
 
    //     System.out.println(9/0);
