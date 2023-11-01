@@ -13,11 +13,11 @@ public class ExaamplesFromStudents {
         return 0;
     }
 
-    public static void pause(long mill) { // todo with try catch and with finally
-        Thread.sleep(5000);
-    }
-
-    public static void pause2(long mill) { // to do with throws
-        Thread.sleep(5000);
-    }
+//    public static void pause(long mill) { // todo with try catch and with finally
+//        Thread.sleep(5000);
+//    }
+//
+//    public static void pause2(long mill) { // to do with throws
+//        Thread.sleep(5000);
+//    }
 }
