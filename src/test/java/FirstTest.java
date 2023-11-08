@@ -14,6 +14,9 @@ public class FirstTest {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        WebElement element = driver.findElement(By.xpath("//h5"));
+        System.out.println("first: " + element.getText());
+
         List<WebElement> list = driver.findElements(By.xpath("//h5"));
         for(WebElement el: list) {
             System.out.println(el.getText());
