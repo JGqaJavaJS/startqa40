@@ -51,6 +51,8 @@ public class XpathLesson {
 
         Assert.assertTrue(true);
         /*
+        //div[.//h5[text()='Elements']]
+
         Подзапросы
 //tag1[.//tag2[@attribute2=’value2’]]
 Точка в начале подзапроса означает, что поиск выполняется относительно
@@ -60,5 +62,15 @@ public class XpathLesson {
 
 //              /bookstore/book/title
                 //title
+
+
+
+        //tagName[@attrName='attrValue']
+        //tagName[text()='text']
+        //*[contains(@attrName, 'partlyAttrValue')]
+        //*[contains(text(), 'partlyText')]
+        //*[contains(text(), 'partlyText') AND @attrName='attrValue']
+        //*[contains(text(), 'partlyText') OR @attrName='attrValue']
+        //h5/..    -> one level up
     }
 }
